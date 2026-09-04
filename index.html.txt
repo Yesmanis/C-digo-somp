@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CÓDIGO SOMP — Descubre tu subtipo hormonal</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400..700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+  body{font-family:'Inter',sans-serif;background:#FBF7F5;color:#2b2b2b;}
+  .font-display{font-family:'Fraunces',serif;}
+  .balance{text-wrap:balance;}
+  .pretty{text-wrap:pretty;}
+  .text-mauve{color:#9C6B8A;}
+  .bg-mauve{background:#9C6B8A;}
+  .bg-mauvedark{background:#7E5470;}
+  .border-mauve{border-color:#9C6B8A;}
+  details summary::-webkit-details-marker{display:none;}
+  details[open] .chev{transform:rotate(180deg);}
+</style>
+</head>
+<body class="bg-[#FBF7F5] text-[#2b2b2b]">
+
+<header class="border-b border-black/10 sticky top-0 bg-[#FBF7F5]/90 backdrop-blur z-50">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="font-display text-lg tracking-tight">SaludIntegra_</span>
+    <nav class="hidden md:flex gap-8 text-sm text-black/60">
+      <a href="#subtipos" class="hover:text-mauve">Subtipos</a>
+      <a href="#contenido" class="hover:text-mauve">Contenido</a>
+      <a href="#evidencia" class="hover:text-mauve">Evidencia</a>
+      <a href="#faq" class="hover:text-mauve">Preguntas</a>
+    </nav>
+    <a href="#comprar" class="text-sm font-semibold bg-black text-white px-5 py-2 rounded-sm hover:bg-mauvedark transition-colors">Comprar ahora</a>
+  </div>
+</header>
+
+<section class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+  <div>
+    <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-4">SOP / SOMP · Protocolo basado en evidencia</p>
+    <h1 class="font-display text-4xl md:text-5xl leading-tight balance mb-6">CÓDIGO SOMP</h1>
+    <p class="text-xl text-black/70 mb-8 pretty max-w-md">Descubre tu subtipo hormonal, entiende las causas reales de tus síntomas y recupera el control con un plan claro, paso a paso.</p>
+    <a href="#comprar" class="inline-block bg-mauve text-white font-semibold px-8 py-4 rounded-sm hover:bg-mauvedark transition-colors">Quiero mi protocolo</a>
+    <p class="text-xs text-black/40 mt-4">Entrega inmediata en PDF · Acceso de por vida</p>
+  </div>
+  <div>
+    <img src="https://picsum.photos/seed/hormonalwoman/700/900" alt="mujer serena mirando por una ventana con luz natural" class="w-full h-full object-cover rounded-sm">
+  </div>
+</section>
+
+<section class="bg-black text-white py-20">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h2 class="font-display text-3xl md:text-4xl balance mb-6">"Todo lo que he probado no funciona"</h2>
+    <p class="text-white/70 text-lg pretty">Ciclos irregulares, acné, dificultad para bajar de peso, ansiedad, pérdida de cabello. Te dijeron "baja de peso y se te va a regular", pero nadie te explicó por qué tu cuerpo responde distinto al de otras mujeres con el mismo diagnóstico. El SOP —hoy también llamado SOMP— no es una sola condición: tiene subtipos, y cada uno necesita un enfoque distinto.</p>
+  </div>
+</section>
+
+<section id="subtipos" class="max-w-6xl mx-auto px-6 py-20">
+  <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-4 text-center">La causa raíz</p>
+  <h2 class="font-display text-3xl md:text-4xl text-center balance mb-14">Los 4 subtipos de SOP/SOMP</h2>
+  <div class="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-black/10 border-y border-black/10">
+    <div class="p-8">
+      <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-2">Subtipo 1</p>
+      <h3 class="font-display text-xl mb-2">Insulino-resistente</h3>
+      <p class="text-black/60 text-sm pretty">El más común. Se relaciona con dificultad para bajar de peso, antojos de azúcar y acantosis nigricans.</p>
+    </div>
+    <div class="p-8">
+      <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-2">Subtipo 2</p>
+      <h3 class="font-display text-xl mb-2">Inflamatorio</h3>
+      <p class="text-black/60 text-sm pretty">Inflamación crónica de bajo grado, fatiga, dolores articulares y problemas digestivos.</p>
+    </div>
+    <div class="p-8">
+      <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-2">Subtipo 3</p>
+      <h3 class="font-display text-xl mb-2">"Tipo delgado"</h3>
+      <p class="text-black/60 text-sm pretty">Peso normal o bajo, pero con síntomas hormonales marcados; a menudo subdiagnosticado.</p>
+    </div>
+    <div class="p-8">
+      <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-2">Subtipo 4</p>
+      <h3 class="font-display text-xl mb-2">Adrenal</h3>
+      <p class="text-black/60 text-sm pretty">Exceso de andógenos suprarrenales, muchas veces ligado a estrés crónico y cortisol elevado.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contenido" class="bg-white py-20 border-y border-black/10">
+  <div class="max-w-4xl mx-auto px-6">
+    <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-4 text-center">Qué incluye</p>
+    <h2 class="font-display text-3xl md:text-4xl text-center balance mb-14">Un protocolo completo, no un PDF genérico</h2>
+    <div class="divide-y divide-black/10 border-y border-black/10">
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">1. Introducción</span><span class="text-black/50 text-sm text-right max-w-sm">Qué es el SOP/SOMP y por qué el enfoque de "talla única" no funciona.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">2. Checklist de autoevaluación</span><span class="text-black/50 text-sm text-right max-w-sm">Identifica qué subtipo podría tener tu cuerpo.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">3. Pilar Nutrición</span><span class="text-black/50 text-sm text-right max-w-sm">Plan de comidas de 7 días adaptable a cada subtipo.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">4. Pilar Movimiento</span><span class="text-black/50 text-sm text-right max-w-sm">Ejercicio según resistencia a la insulina o inflamación.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">5. Pilar Estrés y sueño</span><span class="text-black/50 text-sm text-right max-w-sm">El rol del cortisol en el SOP.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">6. Pilar Suplementación</span><span class="text-black/50 text-sm text-right max-w-sm">Qué dice la evidencia real sobre inositol, magnesio y vitamina D.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">7. Protocolo de 30 días</span><span class="text-black/50 text-sm text-right max-w-sm">Checklist diario y semanal de seguimiento.</span></div>
+      <div class="flex justify-between items-start py-5 gap-6"><span class="font-semibold">8. Preguntas frecuentes</span><span class="text-black/50 text-sm text-right max-w-sm">Respuestas directas a tus dudas más comunes.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="evidencia" class="max-w-4xl mx-auto px-6 py-20 text-center">
+  <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-4">Transparencia</p>
+  <h2 class="font-display text-3xl md:text-4xl balance mb-6">Contenido respaldado por evidencia científica</h2>
+  <p class="text-black/60 pretty max-w-2xl mx-auto">Cada recomendación cita su fuente y su nivel de certeza (PubMed, JCEM, Reproductive Biology and Endocrinology, entre otras). No se garantizan resultados ni se reemplaza el criterio médico profesional.</p>
+</section>
+
+<section id="comprar" class="bg-black text-white py-20">
+  <div class="max-w-md mx-auto px-6 text-center">
+    <h2 class="font-display text-3xl balance mb-6">CÓDIGO SOMP</h2>
+    <ul class="text-left text-white/70 space-y-3 mb-8 text-sm">
+      <li class="flex gap-2"><i class="fa-solid fa-check text-mauve"></i>Protocolo completo en PDF</li>
+      <li class="flex gap-2"><i class="fa-solid fa-check text-mauve"></i>Checklist de autoevaluación de subtipos</li>
+      <li class="flex gap-2"><i class="fa-solid fa-check text-mauve"></i>Plan de comidas de 7 días</li>
+      <li class="flex gap-2"><i class="fa-solid fa-check text-mauve"></i>Protocolo de seguimiento de 30 días</li>
+      <li class="flex gap-2"><i class="fa-solid fa-check text-mauve"></i>Acceso inmediato y de por vida</li>
+    </ul>
+    <a href="#" class="block bg-mauve text-white py-4 rounded-sm font-semibold hover:bg-mauvedark transition-colors">Comprar en Hotmart</a>
+    <p class="text-xs text-white/40 mt-4">Enlace de compra a configurar por SaludIntegra_ en Hotmart.</p>
+  </div>
+</section>
+
+<section id="faq" class="max-w-3xl mx-auto px-6 py-20">
+  <p class="text-xs uppercase tracking-widest text-mauve font-semibold mb-4">Preguntas frecuentes</p>
+  <h2 class="font-display text-3xl balance mb-10">Antes de que te decidas</h2>
+  <div class="divide-y divide-black/10 border-y border-black/10">
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Este ebook reemplaza a mi ginecólogo/a?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">No. Es un material educativo para entender mejor tus síntomas y opciones. Siempre contrasta cualquier cambio con un profesional de la salud.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Necesito un diagnóstico previo de SOP?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">No es obligatorio. El checklist te ayuda a orientarte incluso si solo sospechas que podrías tenerlo.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Qué pasa si tengo más de un subtipo?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">Es común. El ebook explica cómo priorizar el subtipo dominante y ajustar el plan.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿El plan de comidas es rígido?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">No. Es un ejemplo de 7 días adaptable a tu subtipo y preferencias.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Los suplementos están garantizados?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">No. Se explica qué dice la evidencia disponible sobre cada uno, con su nivel de certeza.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿En qué formato recibo el ebook?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">En PDF, con entrega inmediata tras la compra en Hotmart.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Sirve si solo tengo síntomas y no diagnóstico?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">Sí, está pensado también para quienes sospechan que podrían tener SOP/SOMP.</p>
+    </details>
+    <details class="group py-5">
+      <summary class="flex justify-between items-center gap-4 cursor-pointer"><span class="font-semibold">¿Por qué usan el término SOMP y no solo SOP?</span><i class="fa-solid fa-chevron-down chev text-mauve transition-transform"></i></summary>
+      <p class="text-black/60 mt-3 pretty">SOMP refleja una conceptualización más reciente que reconoce la naturaleza metabólica y hormonal más amplia de la condición.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="border-t border-black/10 bg-[#FBF7F5]">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <div class="flex flex-col sm:flex-row justify-between gap-8">
+      <div>
+        <span class="font-display text-lg">SaludIntegra_</span>
+        <p class="text-black/50 text-sm mt-2 max-w-xs pretty">Contenido respaldado por evidencia científica.</p>
+      </div>
+      <div class="text-sm text-black/50 max-w-md pretty">
+        <p><strong class="text-black/70">Aviso importante:</strong> este material tiene fines exclusivamente educativos e informativos. No constituye consejo médico ni reemplaza la consulta con un profesional de la salud.</p>
+      </div>
+    </div>
+    <p class="text-xs text-black/30 mt-10">© 2026 SaludIntegra_. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
